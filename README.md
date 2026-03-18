@@ -5,7 +5,7 @@
 - Mar 18, 2026
 
 ## Repository Contents
-The goal of this project is to perform a Granger Causality analysis to determine whether average hourly wage in the United States can be a reliable predictor of the U.S. National Home Price Index (USNHPI). The DS-4002_Group5_Project2 repository contains the DATA folder (includes our dataset of interest as well as more information about the data located in the data appendix), the SCRIPTS folder (includes code for preprocessing/cleaning the dataset, running the Granger Causaility to show predictive power, and performing a hypothesis test to determine statistical significance), the OUTPUTS folder (contains screenshots or PDFs of our results from the Granger Causality and the hypothesis test), and the LICENSE.md and README.md files.
+The goal of this project is to perform a Granger Causality analysis to determine whether average hourly wage in the United States can be a reliable predictor of the U.S. National Home Price Index (USNHPI). The DS-4002_Group5_Project2 repository contains the DATA folder (includes our two original and our final dataset of interest as well as more information about the data located in the data appendix), the SCRIPTS folder (includes code for preprocessing/cleaning the dataset, running the Granger Causaility to show predictive power, and performing a hypothesis test to determine statistical significance), the OUTPUTS folder (contains screenshots or PDFs of our results from the Granger Causality and the hypothesis test), and the LICENSE.md and README.md files.
 
 ## Section 1: Software and Platform
 
@@ -46,8 +46,9 @@ DS-4002_Group5_Project1/
 ```
 
 ### Folder Descriptions
-- **DATA**: Contains our datatset and the data appendix that includes more information about our variables and observations.
-  - Original dataset of 238 months (or observations) ranging from March of 2006 to December of 2025. 
+- **DATA**: Contains two original datasets and our final datatset alongside the data appendix that includes more information about our variables and observations.
+  - Original datasets of 238 months (or observations) ranging from March of 2006 to December of 2025.
+  - Cleaned dataset after preprocessing.
   - Our Data Appendix describes our unit of observation as well as all of the key variables we will be utilizing in our analysis alongside some exploratory visuals associated with some of our variables of interest. 
 - **SCRIPTS**: Contains python scripts for data preprocessing/cleaning, the Granger Causality analysis, and hypothesis testing.
 - **OUTPUT**: 
