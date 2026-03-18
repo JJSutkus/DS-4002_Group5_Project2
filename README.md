@@ -46,9 +46,9 @@ DS-4002_Group5_Project1/
 ### Folder Descriptions
 - **DATA**: Contains our datatset and the data appendix that includes more information about our variables and observations.
   - Original dataset of 238 months (or observations) ranging from March of 2006 to December of 2025. 
-  - Data Appendix looking into our unit of observation as well as describing all of the key variables we will be utilizing in our analysis alongside some exploratory visuals associated with some of our key variables. 
+  - Our Data Appendix describes our unit of observation as well as all of the key variables we will be utilizing in our analysis alongside some exploratory visuals associated with some of our variables of interest. 
 - **SCRIPTS**: Contains python scripts for data preprocessing/cleaning, the Granger Causality analysis, and hypothesis testing.
-- **OUTPUT**: Contains screenshots of the sample coherence scores when finding the optimal k value to fit the LDA model, the evaluation metrics for the final model, and graphics for the hypothesis test. Contains PDFs of the hypothesis testing results, the topic-word probability distribution for the LDA model, the most common topics by sentiment (positive, negative, and neutral), and the topic distribution for positive and negative reviews.
+- **OUTPUT**: 
 - **LICENSE**: MIT license was selected based on recommendation from the DS 4002 Ml3 Rubric.
 - **README.md**: Instructions, documentation, and respository overview. 
 
