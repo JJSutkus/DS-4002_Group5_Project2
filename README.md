@@ -22,8 +22,10 @@ The following Python packages are required:
 DS-4002_Group5_Project1/
 │
 ├── DATA/
+│ ├── Avg_Hourly_Wage_data.csv
 │ ├── P2_Data.csv
 │ ├── P2_Data_Appendix.csv
+│ ├── USNHPI_data.csv
 │
 ├── OUTPUT/
 │ ├── 
