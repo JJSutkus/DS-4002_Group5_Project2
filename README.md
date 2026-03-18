@@ -57,10 +57,10 @@ DS-4002_Group5_Project1/
 
 ## References
 
-[1] Eric, “Introduction to Granger Causality,” Aptech Systems Blog, Oct. 4, 2021. [Online]. Available: https://www.aptech.com/blog/introduction-to-granger-causality/. [Accessed: Mar. 11, 2026].
-[2] Grewal, A., Hepburn, K. J., Lear, S. A., Adshade, M., & Card, K. G. (2024). The impact of housing prices on residents’ health: A systematic review. BMC Public Health. Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10983630/
-[3] Louie, S., Mondragon, J., & Wieland, J. F. (2025). Supply constraints do not explain house price and quantity growth across U.S. cities (Federal Reserve Bank of San Francisco Working Paper No. 2025-06). Federal Reserve Bank of San Francisco. https://www.frbsf.org/wp-content/uploads/wp2025-06.pdf
-[4] PhD Students in Data Science Batch 2023, Asian Institute of Management, “Chapter 4: Granger Causality Test,” Time Series Analysis Handbook, 2020. [Online]. Available: https://phdinds-aim.github.io/time_series_handbook/04_GrangerCausality/04_GrangerCausality.html. [Accessed: Mar. 9, 2026].
-[5] ScienceDirect. (n.d.). Granger-causality. In ScienceDirect Topics. Elsevier. Retrieved February 25, 2026, from https://www.sciencedirect.com/topics/social-sciences/granger-causality
-[6] U.S. Bureau of Labor Statistics. (n.d.). Average hourly earnings of all employees, total private (CES0500000003). Retrieved March 11, 2026, from FRED, Federal Reserve Bank of St. Louis: https://fred.stlouisfed.org/series/CES0500000003
-[7] U.S. Federal Housing Finance Agency. (n.d.). S&P/Case-Shiller U.S. National Home Price Index (CSUSHPINSA). Retrieved March 11, 2026, from FRED, Federal Reserve Bank of St. Louis: https://fred.stlouisfed.org/series/CSUSHPINSA
+- [1] Eric, “Introduction to Granger Causality,” Aptech Systems Blog, Oct. 4, 2021. [Online]. Available: https://www.aptech.com/blog/introduction-to-granger-causality/. [Accessed: Mar. 11, 2026].
+- [2] Grewal, A., Hepburn, K. J., Lear, S. A., Adshade, M., & Card, K. G. (2024). The impact of housing prices on residents’ health: A systematic review. BMC Public Health. Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10983630/
+- [3] Louie, S., Mondragon, J., & Wieland, J. F. (2025). Supply constraints do not explain house price and quantity growth across U.S. cities (Federal Reserve Bank of San Francisco Working Paper No. 2025-06). Federal Reserve Bank of San Francisco. https://www.frbsf.org/wp-content/uploads/wp2025-06.pdf
+- [4] PhD Students in Data Science Batch 2023, Asian Institute of Management, “Chapter 4: Granger Causality Test,” Time Series Analysis Handbook, 2020. - [Online]. Available: https://phdinds-aim.github.io/time_series_handbook/04_GrangerCausality/04_GrangerCausality.html. [Accessed: Mar. 9, 2026].
+- [5] ScienceDirect. (n.d.). Granger-causality. In ScienceDirect Topics. Elsevier. Retrieved February 25, 2026, from https://www.sciencedirect.com/topics/social-sciences/granger-causality
+- [6] U.S. Bureau of Labor Statistics. (n.d.). Average hourly earnings of all employees, total private (CES0500000003). Retrieved March 11, 2026, from FRED, Federal Reserve Bank of St. Louis: https://fred.stlouisfed.org/series/CES0500000003
+- [7] U.S. Federal Housing Finance Agency. (n.d.). S&P/Case-Shiller U.S. National Home Price Index (CSUSHPINSA). Retrieved March 11, 2026, from FRED, Federal Reserve Bank of St. Louis: https://fred.stlouisfed.org/series/CSUSHPINSA
