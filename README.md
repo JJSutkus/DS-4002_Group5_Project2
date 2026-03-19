@@ -78,13 +78,32 @@ DS-4002_Group5_Project1/
 
   - The output should include:
     - The time intervals and NA values for P2_Data.csv
-    - The lag plots for avg_hourly_wage and USNHPI.
-    - The lag plots for avg_hourly_wage_diff and USNHPI_diff.
-    - The results from the KPSS and ADF tests for avg_hourly_wage_diff and USNHPI_diff.
-    - The lag plots for avg_hourly_wage_log_diff and USNHPI_log_diff.
-    - The results from the KPSS and ADF tests for avg_hourly_wage_log_diff and USNHPI_log_diff.
+    - The lag plots for avg_hourly_wage and USNHPI
+    - The lag plots for avg_hourly_wage_diff and USNHPI_diff
+    - The results from the KPSS and ADF tests for avg_hourly_wage_diff and USNHPI_diff
+    - The lag plots for avg_hourly_wage_log_diff and USNHPI_log_diff
+    - The results from the KPSS and ADF tests for avg_hourly_wage_log_diff and USNHPI_log_diff
    
-  - Some notes for Step 3: 
+  - Some notes for Step 3:
+    - You will see that the original variables, avg_hourly_wage and USNHPI, show a strong trend. This signals non-stationarity. This is why we then test the differences, avg_hourly_wage_diff and USNHPI_diff. From the kpss and adf tests, we can see that the results still show non-stationarity. As a result, we take a logarithmic transformation of avg_hourly_wage and USNHPI and compute the differences to get avg_hourly_wage_log_diff and USNHPI_log_diff. Functions are created for lag plots and the KPSS and ADF tests to make this process easier.
+   
+- **Step 4**: Finally, we can perform the Granger Causality test. To do this, run the 03_grangercausality.py script.
+  - This script will:
+    - read the P2_Data_With_LogDiff.csv dataset
+    - split the dataset in a training set (80%) and a test set (20%)
+    - select the VAR order p by computing different multivariate information criterion values (AIC, BIC, FPE, HQIC)
+    - fit the VAR model with the chosen order
+    - test variables for Granger Causality using the SSR-based chi-squared test
+    - output a Granger Causation matrix with p-values from the test
+   
+  - The output should include:
+    - Plots for the VAR order p by different multivariate information criterion
+    - The order p results from each multivariate information criterion
+    - The Granger Causation matrix for p=2
+    - The Granger Causation matrix for p=14
+
+- **Step 5**: Verify your outputs match those in the OUTPUT folder.
+
 ## References
 
 - [1] Eric, “Introduction to Granger Causality,” Aptech Systems Blog, Oct. 4, 2021. [Online]. Available: https://www.aptech.com/blog/introduction-to-granger-causality/. [Accessed: Mar. 11, 2026].
