@@ -46,9 +46,10 @@ def optimal_order(train_df):
                                  'HQIC': hqic},
                                 index=p)
 
-  # set up plots
+  # set up plots and create title
   fig, ax = plt.subplots(1, 4, figsize = (15,3), sharex=True)
   results_df.plot(subplots=True, ax=ax, marker='o')
+  plt.suptitle('VAR Order p by Different Multivariate Information Criterion')
   plt.tight_layout()
   plt.show()
 
