@@ -40,6 +40,8 @@ def lag_plots(data_df, column1, column2):
     ax2.set_ylabel('$y_{t+1}$');
     ax2.set_xlabel('$y_t$');
 
+    # setting title and printing plots
+    plt.suptitle(f'Lag Plots for {column1} and {column2}')
     plt.tight_layout()
     plt.show()
 
