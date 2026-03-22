@@ -1,3 +1,4 @@
+# This script merges the Avg_Hourly_Wage_data.csv and USNHPI_data.csv dataset together so we can analyze both variables at once with respect to time. 
 # -*- coding: utf-8 -*-
 """01_preprocess.ipynb
 
