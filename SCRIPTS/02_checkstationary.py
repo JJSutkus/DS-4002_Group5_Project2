@@ -1,4 +1,5 @@
-
+# This script cleans P2_Data.csv, tests stationarity of average hourly wage and USNHPI, and introduces the log differences of both variables.
+# The goal of this script is to prepare our data for Granger Causality Test.
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
